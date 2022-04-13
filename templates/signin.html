@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style_sign_in.css') }}">
+    <title>Pегистрация</title>
+  </head>
+ 
+  <body style="background-image: url({{ url_for('static', filename='fon2.jpg') }})">	
+	<div id="range5" align="left" style="padding-top:100px">
+			<div class="outer">
+			  <div class="middle">
+				<div class="inner">
+
+					<div class="login-wr">
+					  <div class="form">
+						<p><input type="text" placeholder="Имя">
+						<p><input type="text" placeholder="Фамилия">
+						<p><input type="text" placeholder="Дата рождения">
+						<p><input type="text" placeholder="Страна">
+						<p><input type="text" placeholder="Email">
+						<p><input type="text" placeholder="Никнейм">
+						<p><input type="password" placeholder="Пароль">
+						<p><button class="button blue"> Зарегистрироваться </button>
+					  </div>
+					</div>
+				</div>
+			  </div>
+			</div>	
+	</div>
+  </body>
+</html>

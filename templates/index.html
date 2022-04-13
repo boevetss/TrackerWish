@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<title> Главная страница </title>
+	</head>
+	<body style="background-image: url({{ url_for('static', filename='start.jpg') }})">
+		<div align="right">
+				
+			<div id="block2"><button id="login" class="button blue" background="blue" href="signup.html">
+				<i class="fa fa-unlock"></i>
+				<span>Войти</span>
+			</button>
+
+			<a id="register" class="button purple" href="register.html">
+				<i class="fa fa-user-plus"></i>
+				<span>Зарегистрироваться</span>
+			</a>
+			</div>
+			<h3 align="center"> Make a Wish
+		</div>
+		
+	
+	</body>
+</html>
