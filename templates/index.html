@@ -7,21 +7,22 @@
 		<title> Главная страница </title>
 	</head>
 	<body style="background-image: url({{ url_for('static', filename='start.jpg') }})">
-		<div align="right">
-				
-			<div id="block2"><button id="login" class="button blue" background="blue" href="signup.html">
-				<i class="fa fa-unlock"></i>
-				<span>Войти</span>
-			</button>
+		<div class="header">
+				<button class="button blue" href="sign_in.html">
+					<span>Войти</span>
+				</button>
 
-			<a id="register" class="button purple" href="register.html">
-				<i class="fa fa-user-plus"></i>
-				<span>Зарегистрироваться</span>
-			</a>
+				<button	class="button purple" href="sign_up.html">
+					<span>Зарегистрироваться</span>
+				</a>
 			</div>
-			<h3 align="center"> Make a Wish
-		</div>
-		
-	
+			
+			<div class="container">
+				<h3> Make a Wish
+			</div>
+			
+			<div class="footer">
+				<h6> Copyright 2022 - Все права защищены
+			</div>
 	</body>
 </html>
