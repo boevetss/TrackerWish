@@ -11,9 +11,6 @@
   border-radius: 100px;
   color: #fff;
 }
-.button i {
-  margin-right: 4px;
-}
 .button + .button {
   margin-left: 6px;
 }
@@ -23,7 +20,6 @@
 .button.purple {
   background: #9b59b6;
 }
-
 .button:hover {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
@@ -44,15 +40,21 @@
   background: #8f4bab;
 }
 
-#block2 {
-    padding-right:20px;
-	padding-top:10px;
-	height: 280px;
+.header{
+  margin-top: 50px;
+  margin-left: 75%;
 }
 
-h3
-{
+.container{
+  height: 425px;
+	text-align: center;
 	color: white;
-	font-size: 142px;
+	font-size: 122px;
+	font-family: Robo0o, Verdana, Tahoma, sans;
+}
+
+.footer{
+	margin-left: 60%;
+	color: white;
 	font-family: Roboto, Verdana, Tahoma, sans;
 }

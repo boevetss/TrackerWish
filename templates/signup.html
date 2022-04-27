@@ -2,26 +2,31 @@
 <html lang="en">
   <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="{{ url_for('static', filename='style_sign_in.css') }}">
-    <title>Вход</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style_sign_up.css') }}">
+    <title>Pегистрация</title>
   </head>
  
-  <body style="background-image: url({{ url_for('static', filename='fon.jpg') }})">	
-	<div id="range5" align="left" style="padding-top:250px">
-			<div class="outer">
-			  <div class="middle">
-				<div class="inner">
+  <body style="background-image: url({{ url_for('static', filename='fon2.jpg') }})">
+	  <div class="header">
+	  		<a class="button blue" href="/">
+						<span>Главная страница</span>
+			</a>
+	  </div>
 
-					<div class="login-wr">
-					  <div class="form">
-						<p><input type="text" placeholder="Никнейм">
-						<p><input type="password" placeholder="Пароль">
-						<p><button class="button blue"> Войти </button>
-					  </div>
-					</div>
-				</div>
-			  </div>
-			</div>	
-	</div>
+	  <div class="container">
+	  	<p><input type="text" placeholder="Имя">
+			<p><input type="text" placeholder="Фамилия">
+			<p><input type="text" placeholder="Дата рождения">
+			<p><input type="text" placeholder="Страна">
+			<p><input type="text" placeholder="Email">
+			<p><input type="text" placeholder="Никнейм">
+			<p><input type="password" placeholder="Пароль">
+			<p><button class="button purple"> Зарегистрироваться </button>
+		</div>
+
+		<div class="footer">
+			<h6> Copyright 2022 - Все права защищены
+		</div>
+
   </body>
 </html>
