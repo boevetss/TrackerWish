@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Make a Wish</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='normalize.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+		<title> Главная страница </title>
+	</head>
+	<body>
+		<div class="container">
+	      	<header class="main-header header-catalog">
+	      		<a class="catalog" href="index.html">
+          			Make a Wish
+        		</a>
+				<div class="navigation">
+	          		<form class="search-navigation" action="https://echo.htmlacademy.ru" method="post">
+		            	<label class="visually-hidden" for="search">Поиск по сайту</label>
+		            	<input class="search-navigation-input" id="search" type="search" name="search" placeholder="Поиск по сайту">
+		           		<button class="search">Найти</button>
+	          		</form>
+	          		<ul class="user-navigation">
+		            	<li class="login">
+		             		<a class="login-link profile-link" href="profile.html">Личный кабинет </a>
+		            	</li>
+		           		<li class="exit">
+		             		<a href="/">Выйти</a>
+		            	</li>
+		            	<li class="cart">
+		             		<a class="cart-link" href="cart.html">Желания</a>
+		            	</li>
+	          		</ul>
+	        	</div>
+				<nav class="main-navigation">
+	          	<ul class="site-navigation">
+	           	 	<li class="catalog"><a class="catalog-link" href="#">Каталог товаров</a>
+			            <ul class="drop-menu">
+			                <li><a href="virtual-reality.html">Книги</a></li>
+			                <li><a href="catalog.html">Моноподы для селфи</a></li>
+			                <li><a href="cameras.html">Настольные игры</a></li>
+			                <li><a href="fitness-bracelet.html">Уходовые средства </a></li>
+			                <li class="smart-watch"><a href="smart-watch.html">Техника</a></li>
+			                <li><a href="quadrocopters.html"> Декор </a></li>
+			            </ul>
+		            </li>
+	          	</ul>
+	        </nav>
+	        </header>
+	       </div>
+	       <main>
+      <div class="container">
+        <h2 class="page-title">Список желаний </h2>
+        <ul class="breadcrumbs">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Список желаний</a></li>
+        </ul>
+      </div>
+
+	       		
+
+		<div class="footer" align="center">
+			<h6> Copyright 2022 - Все права защищены
+		</div>
+	</body>
+</html>
