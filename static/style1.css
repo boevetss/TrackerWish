@@ -690,7 +690,7 @@ a {
           transform: translateY(-50%);
 
   height: 8px;
-  background-color: #f0c52e;
+  background-color: #CCCDF7;
 
   -webkit-transition: height 0.3s ease-in-out;
 
@@ -890,7 +890,7 @@ a {
 
 .icon:hover::before,
 .icon:focus::before {
-  background-color: #f0c52e;
+  background-color: #CCCDF7;
 }
 
 .icon:active::before,
@@ -899,7 +899,7 @@ a {
 }
 
 .icon:active .catalog-icon-icons {
-  background-color: #f0c52e;
+  background-color: #CCCDF7;
 }
 
 
@@ -1861,7 +1861,7 @@ a {
 .filter button:active,
 .catalog-cart:active {
   color: rgba(0, 0, 0, 0.3);
-  background-color: #f0c52e;
+  background-color: #CCCDF7;
   outline: none;
 }
 
@@ -2442,7 +2442,7 @@ a {
 .write-us-form input:focus,
 .write-us-form textarea:focus {
   background-color: #ffffff;
-  border: 3px solid #f0c52e;
+  border: 3px solid #CCCDF7;
   opacity: 0,5;
   outline: none;
 }
@@ -2478,6 +2478,6 @@ a {
 
 .write-us-form button:active {
  color: rgba(0, 0, 0, 0.3);
- background-color: #f0c52e;
+ background-color: #CCCDF7;
  outline: none;
 }
