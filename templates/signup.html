@@ -14,16 +14,16 @@
 	  </div>
 
 	  <div class="container">
-	  	<p><input type="text" placeholder="Имя">
-			<p><input type="text" placeholder="Фамилия">
-			<p><input type="text" placeholder="Дата рождения">
-			<p><input type="text" placeholder="Страна">
-			<p><input type="text" placeholder="Email">
-			<p><input type="text" placeholder="Никнейм">
-			<p><input type="password" placeholder="Пароль">
-			<p><a class="button blue" href="/Catalog">
-				<span> Зарегистрироваться </span>
-			</a>
+		  <form action="" method="POST">
+	  		<p><input type="text" name="firstname" class="form-control" value="{{ request.form['firstname'] }}" id="firstname" placeholder="Имя" ></p>
+			<p><input type="text" name="secondname" class="form-control" value="{{ request.form['secondname'] }}" id="secondname" placeholder="Фамилия"></p>
+			<p><input type="text" id="data" placeholder="Дата рождения"></p>
+		    <p><input type="text" placeholder="Страна"></p>
+			<p><input type="text" placeholder="Email"></p>
+			<p><input type="text" placeholder="Никнейм"></p>
+			<p><input type="password" placeholder="Пароль"></p>
+		    <p><input type="submit" class="button blue" value="Зарегистрироваться"></p>
+		  </form>
 		</div>
 
 		<div class="footer">
