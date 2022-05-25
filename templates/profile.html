@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="{{ url_for('static', filename='normalize.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='cabinet.css') }}">
+		<title> Личный кабинет </title>
+	</head>
+	<body>
+		<div class="container">
+	      	<header class="main-header header-catalog">
+				<div class="navigation">
+	          		<form class="search-navigation" action="https://echo.htmlacademy.ru" method="post">
+		            	<label class="visually-hidden" for="search">Поиск по сайту</label>
+		            	<input class="search-navigation-input" id="search" type="search" name="search" placeholder="Поиск по сайту">
+		           		<button class="search">Найти</button>
+	          		</form>
+	          		<ul class="user-navigation">
+		            	<li class="login">
+		             		<a class="login-link profile-link" href="/Catalog"> Каталог желаний </a>
+		            	</li>
+		           		<li class="exit">
+		             		<a href="/">Выйти</a>
+		            	</li>
+	          		</ul>
+	        	</div>
+				
+
+
+	        </header>
+	       </div>
+	       <main>
+      <div class="container">
+        <div class="profile" align="left">
+        	<h2 class="page-title" align="center">Петрова Екатерина </h2>
+        	<img src="/static/img/petrova.PNG" width="20%" height="20%">
+        </div>
+        <div class="petrova" align="center">
+	        <p> Страна: Россия
+	        <p> Город: Санкт-Петербург	
+	        <p> Дата рождения: 30.03.2006 г.
+	        <p> Возраст: 16 лет
+	        <p> Хобби: вышивание, чтение книг, путешествие, рисование.
+	      </div>
+        <section class="catalog-wrapper">
+          <h3 class="visually-hidden">Моноподы для селфи</h3>
+            <ul class="catalog-list">
+              <li class="catalog-item">
+                <a href="catalog-item.html">
+                  <h4 class="device">Любительская селфи-палка</h4>
+                </a>
+                <p class="catalog-item-image">
+                  <img src="/static/img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
+                </p>
+                <span class="price">500 руб.</span>
+                <ul class="catalog-hover">
+                  <li><button class="button catalog-cart">Добавить желание</button></li>
+                </ul>
+              </li>
+              <li class="catalog-item">
+                <a href="catalog-item.html">
+                  <h4 class="device">Профессиональная селфи-палка</h4>
+                </a>
+                <p class="catalog-item-image">
+                  <img src="/static/img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
+                </p>
+                <span class="price">1 500 руб.</span>
+                <ul class="catalog-hover">
+                   <li><button class="button catalog-cart">Добавить желание</button></li>
+                </ul>
+              </li>
+              <li class="catalog-item">
+                <a href="catalog-item.html">
+                  <h4 class="device">Непотопляемая селфи-палка</h4>
+                </a>
+                <p class="catalog-item-image">
+                  <img src="/static/img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
+                </p>
+                <span class="price">2 500 руб.</span>
+                <ul class="catalog-hover">
+                  <li><button class="button catalog-cart">Добавить желание</button></li>
+                </ul>
+              </li>
+              <li class="catalog-item new">
+                <a href="catalog-item.html">
+                  <h4 class="device">Селфи-палка «Следуй за мной»</h4>
+                </a>
+                <p class="catalog-item-image">
+                  <img src="/static/img/item-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
+                </p>
+                <span class="price">4 900 руб.</span>
+                <ul class="catalog-hover">
+                  <li><button class="button catalog-cart">Добавить желание</button></li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="pagination-container">
+              <button class="pagination-menu">НАЗАД</button>
+              <ul class="pagination-list">
+                <li class="pagination-item pagination-item-current"><a>1</a></li>
+                <li class="pagination-item"><a href="#">2</a></li>
+                <li class="pagination-item"><a href="#">3</a></li>
+              </ul>
+              <button class="pagination-menu">ВПЕРЕД</button>
+            </div>
+          </section>
+      </div>
+
+	       		
+
+		<div class="footer" align="center">
+			<h6> Copyright 2022 - Все права защищены
+		</div>
+	</body>
+</html>

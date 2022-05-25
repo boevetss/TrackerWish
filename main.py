@@ -58,7 +58,11 @@ def catalog():
 
 @app.route("/Wish")
 def wish():
-    return render_template('wish.html')   
+    return render_template('wish.html')
+
+@app.route("/Profile")
+def profile():
+    return render_template('profile.html')   
 
 
 if __name__ == "__main__":
