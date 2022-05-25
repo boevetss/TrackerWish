@@ -1,6 +1,7 @@
 .profile{
 	margin-left: 5%;
   height: 50px;
+  width: 100px;
 	text-align: left;
 	color: white;
 	font-size: 22px;
@@ -11,6 +12,7 @@
 	margin-left: 60%;
 	font-family: Roboto, Verdana, Tahoma, sans;
   height: 50px;
+  width: 100px;
 	text-align: left;
 	font-size: 22px;
 }

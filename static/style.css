@@ -46,7 +46,7 @@
 }
 
 .container{
-  height: 425px;
+  height: 475px;
 	text-align: center;
 	color: white;
 	font-size: 122px;
@@ -54,7 +54,7 @@
 }
 
 .footer{
-	margin-left: 60%;
+	margin-left: 70%;
 	color: white;
 	font-family: Roboto, Verdana, Tahoma, sans;
 }

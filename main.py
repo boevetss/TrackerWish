@@ -64,6 +64,13 @@ def wish():
 def profile():
     return render_template('profile.html')   
 
+@app.route("/MyProfile")
+def myprofile():
+    return render_template('myprofile.html') 
+
+@app.route("/SidorovIvan")
+def sidorovivan():
+    return render_template('sidorovivan.html') 
 
 if __name__ == "__main__":
     app.run()
